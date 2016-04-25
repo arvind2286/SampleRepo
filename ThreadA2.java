@@ -15,6 +15,7 @@ public class ThreadA2 extends Thread
 		try
 		{	
 			join(2000);
+
 		}
 		catch(InterruptedException ie)
 		{
